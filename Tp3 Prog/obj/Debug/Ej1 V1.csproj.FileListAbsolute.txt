@@ -1,0 +1,10 @@
+D:\Escritorio\Tp3 Prog\Tp3 Prog\bin\Debug\Tp3 Prog.exe.config
+D:\Escritorio\Tp3 Prog\Tp3 Prog\bin\Debug\Tp3 Prog.exe
+D:\Escritorio\Tp3 Prog\Tp3 Prog\bin\Debug\Tp3 Prog.pdb
+D:\Escritorio\Tp3 Prog\Tp3 Prog\obj\Debug\Ej1 V1.csproj.AssemblyReference.cache
+D:\Escritorio\Tp3 Prog\Tp3 Prog\obj\Debug\Ej1 V1.csproj.SuggestedBindingRedirects.cache
+D:\Escritorio\Tp3 Prog\Tp3 Prog\obj\Debug\Tp3_Prog.Properties.Resources.resources
+D:\Escritorio\Tp3 Prog\Tp3 Prog\obj\Debug\Ej1 V1.csproj.GenerateResource.cache
+D:\Escritorio\Tp3 Prog\Tp3 Prog\obj\Debug\Ej1 V1.csproj.CoreCompileInputs.cache
+D:\Escritorio\Tp3 Prog\Tp3 Prog\obj\Debug\Tp3 Prog.exe
+D:\Escritorio\Tp3 Prog\Tp3 Prog\obj\Debug\Tp3 Prog.pdb
