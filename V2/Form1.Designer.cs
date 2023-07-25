@@ -35,7 +35,7 @@
             this.lbRonda = new System.Windows.Forms.Label();
             this.lbPuntos = new System.Windows.Forms.ListBox();
             this.gbListaTorneo = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSiguienteRonda = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.gbInscripcion.SuspendLayout();
             this.gbListaTorneo.SuspendLayout();
@@ -43,10 +43,9 @@
             // 
             // btnAgregarCompetidor
             // 
-            this.btnAgregarCompetidor.Location = new System.Drawing.Point(9, 451);
-            this.btnAgregarCompetidor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnAgregarCompetidor.Location = new System.Drawing.Point(6, 293);
             this.btnAgregarCompetidor.Name = "btnAgregarCompetidor";
-            this.btnAgregarCompetidor.Size = new System.Drawing.Size(346, 62);
+            this.btnAgregarCompetidor.Size = new System.Drawing.Size(231, 40);
             this.btnAgregarCompetidor.TabIndex = 0;
             this.btnAgregarCompetidor.Text = "Agregar competidor";
             this.btnAgregarCompetidor.UseVisualStyleBackColor = true;
@@ -55,11 +54,9 @@
             // lstbParticipantes
             // 
             this.lstbParticipantes.FormattingEnabled = true;
-            this.lstbParticipantes.ItemHeight = 20;
-            this.lstbParticipantes.Location = new System.Drawing.Point(9, 29);
-            this.lstbParticipantes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.lstbParticipantes.Location = new System.Drawing.Point(6, 19);
             this.lstbParticipantes.Name = "lstbParticipantes";
-            this.lstbParticipantes.Size = new System.Drawing.Size(344, 404);
+            this.lstbParticipantes.Size = new System.Drawing.Size(231, 264);
             this.lstbParticipantes.TabIndex = 1;
             // 
             // gbInscripcion
@@ -67,11 +64,9 @@
             this.gbInscripcion.Controls.Add(this.btnEmpezarTorneo);
             this.gbInscripcion.Controls.Add(this.lstbParticipantes);
             this.gbInscripcion.Controls.Add(this.btnAgregarCompetidor);
-            this.gbInscripcion.Location = new System.Drawing.Point(18, 89);
-            this.gbInscripcion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gbInscripcion.Location = new System.Drawing.Point(10, 44);
             this.gbInscripcion.Name = "gbInscripcion";
-            this.gbInscripcion.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.gbInscripcion.Size = new System.Drawing.Size(364, 592);
+            this.gbInscripcion.Size = new System.Drawing.Size(243, 385);
             this.gbInscripcion.TabIndex = 4;
             this.gbInscripcion.TabStop = false;
             this.gbInscripcion.Text = "Lista de Competidores";
@@ -79,10 +74,9 @@
             // btnEmpezarTorneo
             // 
             this.btnEmpezarTorneo.Enabled = false;
-            this.btnEmpezarTorneo.Location = new System.Drawing.Point(9, 522);
-            this.btnEmpezarTorneo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnEmpezarTorneo.Location = new System.Drawing.Point(6, 339);
             this.btnEmpezarTorneo.Name = "btnEmpezarTorneo";
-            this.btnEmpezarTorneo.Size = new System.Drawing.Size(346, 62);
+            this.btnEmpezarTorneo.Size = new System.Drawing.Size(231, 40);
             this.btnEmpezarTorneo.TabIndex = 2;
             this.btnEmpezarTorneo.Text = "Empezar torneo";
             this.btnEmpezarTorneo.UseVisualStyleBackColor = true;
@@ -92,57 +86,52 @@
             // 
             this.lbRonda.AutoSize = true;
             this.lbRonda.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbRonda.Location = new System.Drawing.Point(18, 14);
-            this.lbRonda.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbRonda.Location = new System.Drawing.Point(12, 9);
             this.lbRonda.Name = "lbRonda";
-            this.lbRonda.Size = new System.Drawing.Size(325, 46);
+            this.lbRonda.Size = new System.Drawing.Size(227, 31);
             this.lbRonda.TabIndex = 2;
             this.lbRonda.Text = "Rondas totales: ";
             // 
             // lbPuntos
             // 
             this.lbPuntos.FormattingEnabled = true;
-            this.lbPuntos.ItemHeight = 20;
-            this.lbPuntos.Location = new System.Drawing.Point(9, 29);
-            this.lbPuntos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.lbPuntos.Location = new System.Drawing.Point(6, 19);
             this.lbPuntos.Name = "lbPuntos";
-            this.lbPuntos.Size = new System.Drawing.Size(326, 404);
+            this.lbPuntos.Size = new System.Drawing.Size(230, 264);
             this.lbPuntos.TabIndex = 5;
             this.lbPuntos.SelectedIndexChanged += new System.EventHandler(this.lbPuntos_SelectedIndexChanged);
             // 
             // gbListaTorneo
             // 
-            this.gbListaTorneo.Controls.Add(this.button2);
+            this.gbListaTorneo.Controls.Add(this.btnSiguienteRonda);
             this.gbListaTorneo.Controls.Add(this.button1);
             this.gbListaTorneo.Controls.Add(this.lbPuntos);
             this.gbListaTorneo.Enabled = false;
-            this.gbListaTorneo.Location = new System.Drawing.Point(420, 89);
-            this.gbListaTorneo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gbListaTorneo.Location = new System.Drawing.Point(10, 44);
             this.gbListaTorneo.Name = "gbListaTorneo";
-            this.gbListaTorneo.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.gbListaTorneo.Size = new System.Drawing.Size(346, 592);
+            this.gbListaTorneo.Size = new System.Drawing.Size(243, 385);
             this.gbListaTorneo.TabIndex = 6;
             this.gbListaTorneo.TabStop = false;
             this.gbListaTorneo.Text = "Ronda actual: ";
+            this.gbListaTorneo.Visible = false;
             // 
-            // button2
+            // btnSiguienteRonda
             // 
-            this.button2.Enabled = false;
-            this.button2.Location = new System.Drawing.Point(9, 522);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(326, 62);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Siguiente Ronda";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSiguienteRonda.Enabled = false;
+            this.btnSiguienteRonda.Location = new System.Drawing.Point(6, 339);
+            this.btnSiguienteRonda.Name = "btnSiguienteRonda";
+            this.btnSiguienteRonda.Size = new System.Drawing.Size(230, 40);
+            this.btnSiguienteRonda.TabIndex = 3;
+            this.btnSiguienteRonda.Text = "Siguiente Ronda";
+            this.btnSiguienteRonda.UseVisualStyleBackColor = true;
+            this.btnSiguienteRonda.Click += new System.EventHandler(this.btnSiguienteRonda_Click);
             // 
             // button1
             // 
             this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(9, 451);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button1.Location = new System.Drawing.Point(6, 293);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(326, 62);
+            this.button1.Size = new System.Drawing.Size(230, 40);
             this.button1.TabIndex = 6;
             this.button1.Text = "Cargar Puntos a";
             this.button1.UseVisualStyleBackColor = true;
@@ -150,13 +139,13 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 691);
+            this.BackColor = System.Drawing.SystemColors.Info;
+            this.ClientSize = new System.Drawing.Size(265, 434);
             this.Controls.Add(this.gbListaTorneo);
             this.Controls.Add(this.gbInscripcion);
             this.Controls.Add(this.lbRonda);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -164,6 +153,7 @@
             this.gbListaTorneo.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion
@@ -175,7 +165,7 @@
         private System.Windows.Forms.Button btnEmpezarTorneo;
         private System.Windows.Forms.ListBox lbPuntos;
         private System.Windows.Forms.GroupBox gbListaTorneo;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSiguienteRonda;
         private System.Windows.Forms.Button button1;
     }
 }
